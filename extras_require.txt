@@ -1,0 +1,6 @@
+hyperspy
+igor2
+gwyfile
+pillow
+tifffile
+numpy
