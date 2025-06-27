@@ -1,0 +1,135 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# OS Files
+.DS_Store
+
+# Spyder Files from devEnv
+.spyproject/
+
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_static
+docs/_build
+
+# PyBuilder
+target/
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# dotenv
+.env
+
+# virtualenv
+venv/
+ENV/
+
+# Spyder project settings
+.spyderproject
+.spyderworkspace
+
+# Rope project settings
+.ropeproject
+
+# PyCharm project settings
+.idea/
+
+# vscode project settings
+.vscode/
+
+# pypi config file
+.pypirc
+
+# Folder for testing scripts
+test_scripts/
+
+\.pytest_cache/
+/SciFiReaders/readers/microscopy/spm/afm/mdt_reader/nt_mdt.svg
+/SciFiReaders/readers/microscopy/spm/afm/mdt_reader/MDTdeclaration.py
+/SciFiReaders/readers/microscopy/spm/afm/mdt_reader/MDTfile.py
+.pyTEMlib.files.pkl
+tests/readers/microscopy/em/tem/EMDReader_Spectrum_FEI.emd
+tests/readers/converters/server_user_id.txt
+tests/readers/microscopy/em/tem/DMReader_Image_SI-Survey.dm3
+tests/readers/microscopy/em/tem/server_user_id.txt
+notebooks/01_using_readers/example_data/33id_spec_22_2D.hdf5
+notebooks/01_using_readers/example_data/NXarpes.h5
+notebooks/01_using_readers/NXarpes.h5
+notebooks/01_using_readers/test16.hf5
+notebooks/01_using_readers/test17.hf5
+notebooks/01_using_readers/test18.hf5
+notebooks/01_using_readers/Untitled.ipynb
+notebooks/01_using_readers/Untitled1.ipynb
+notebooks/01_using_readers/writer_2_1.hdf5
+notebooks/01_using_readers/writer_2_2.hdf5
+data/Bias-Spectroscopy041.dat
+data/fei_emd_si.emd
+data/P0089OP0027.ibw
+examples/example_data/EELS_STO.dm3
+data/STS_grid_lockin.3ds
