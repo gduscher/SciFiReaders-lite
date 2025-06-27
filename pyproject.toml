@@ -37,6 +37,7 @@ dependencies = [
     "sidpy-lite",
     "ipython>=7.1.0",
     "gdown",
+	"mrcfile"
 ]
 
 [project.optional-dependencies]
