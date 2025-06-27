@@ -11,20 +11,16 @@ import zipfile
 
 perm_link = r"https://github.com/pycroscopy/SciFiDatasets/raw/main/data/microscopy/spm/afm/PEA_BDA_film-1.axz.zip"
 
-# import ssl
-# ssl._create_default_https_context = ssl._create_unverified_context
-
 def download_file(url, output_filename):
-    gdown.download(url, output_filename, quiet=False)
+    urllib.request.urlretrieve(url, output_filename)
     yield output_filename
-    # urllib.request.urlretrieve(url, output_filename)
-        
+       
 def unzip_archive(archive_path, extract_dir):
     with zipfile.ZipFile(archive_path, 'r') as zip_ref:
         zip_ref.extractall(extract_dir)
 
-download_file(perm_link, 'PEA_BDA_film.axz.zip')
-unzip_archive('PEA_BDA_film.axz.zip', '')
+download_file(perm_link, './PEA_BDA_film.axz.zip')
+unzip_archive('./PEA_BDA_film.axz.zip', '')
 class TestAxzReader(unittest.TestCase):
     def test_axz_file_general(self):
         # Test if the test axz file can be read in correctly
